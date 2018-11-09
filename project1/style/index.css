@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#head {
+    color: #ffffff;
+    background: #218cff;
+    width: 100%;
+    flex: 0 0 auto;
+    opacity: 0.7;
+}
+
+#head .fir-head {
+    overflow: hidden;
+    padding: 20px;
+}
+
+#head .fir-head .back {
+    float: left;
+    font-size: 25px;
+}
+
+#head .fir-head .search {
+    float: right;
+    font-size: 20px;
+}
+
+#head .fir-head .address {
+    font-size: 24px;
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    text-align: center;
+    top: 20px;
+    bottom: 0;
+}
+
+#head #sec-head {
+    overflow: hidden;
+    position: relative;
+    /*margin: 0 25px;*/
+    width: 100%;
+}
+
+#head #sec-head .show-item {
+    float: left;
+    width: 80%;
+    margin-right: -100px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+#head #sec-head .show-item .item_data {
+    flex: 1;
+    text-align: center;
+    margin: 5px 5px 10px 5px;
+    border-radius: 5px;
+    float: left;
+}
+
+#head #sec-head .datePlug {
+    width: 20%;
+    float: right;
+}
+
+#footer {
+    border-top: 1px solid darkgrey;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex: 0 0 auto;
+}
+
+#footer div {
+    flex: 1;
+    margin-top: 5px;
+    font-size: 14px;
+    color: grey;
+}
+
+#container {
+    flex: 1 0 auto;
+    position: relative;
+    margin: 10px 10px 10px 0;
+    width: 100%;
+    overflow: scroll;
+}
+
+#container .showItem {
+    width: 70%;
+    float: left;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+#container .containerItem {
+    margin: 10px 0;
+    flex: 1;
+}
+
+#container .itemPrice {
+    width: 30%;
+    float: right;
+    text-align: left;
+    margin-top: -5px;
+}
+
+#container .itemPrice .item_state {
+    width: 75px;
+    border-radius: 5px;
+}
+
+#container .showItem .time, #container .showItem .address {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#container .showItem .time div, #container .showItem .address div {
+    flex: 1;
+}
+
+#container .showItem .icon {
+    text-align: center;
+    margin-left: -30px;
+}
+
+#container .showItem .address, #container .showItem .icon {
+    font-size: 14px;
+    color: grey;
+}
+
+#container .itemPrice .item_price {
+    color: orange;
+    font-size: 18px;
+}
+
+#container .itemPrice .item_dec {
+    font-size: 14px;
+    color: grey;
+}
+
+#container .itemPrice .item_state {
+    background-color: orange;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+#sec-head.headHidden {
+    height: 0;
+}
+
+#footer.footerHidden {
+    visibility: hidden;
+}
+
