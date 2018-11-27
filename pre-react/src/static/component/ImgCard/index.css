@@ -1,0 +1,39 @@
+.layout {
+    margin: 5px;
+    border: 1px solid ghostwhite;
+    box-shadow: grey;
+    mso-border-shadow: yes;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+.gutter-box {
+    list-style-type: none;
+    margin: 8px 8px 5px 8px;
+    font-size: 14px;
+}
+
+.gutter-box .score {
+    flex: 1 1 auto;
+    padding-right: 5px;
+}
+
+.gutter-box .state {
+    flex: 1 1 auto;
+    color: darkgray;
+}
+
+.gutter-box  .dec{
+    flex: 1 1 auto;
+    color: darkgray;
+}
+
+.gutter-box .price {
+    margin-top: -8px;
+    margin-right: -8px;
+    float: right;
+    flex: 1 1 auto;
+    font-size: 20px;
+    color: red;
+}
+

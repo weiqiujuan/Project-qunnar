@@ -1,0 +1,9 @@
+.MenuItem{
+    margin: 5px;
+    font-size: 14px;
+    color: darkgray;
+    text-align: center;
+}
+.ant-divider-horizontal {
+    margin: 12px 0 8px 0 !important;
+}

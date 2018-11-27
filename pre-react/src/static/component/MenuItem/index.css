@@ -1,0 +1,24 @@
+
+.menu_item {
+    display: flex;
+    height: auto;
+    margin: 6px;
+}
+
+.menu_item div {
+    font-size: 14px;
+    flex: 1;
+    float: left;
+    text-align: center;
+}
+
+.menu_item div + div {
+    margin-left: 10px;
+}
+.menu.item .type{
+    margin-left: 10px;
+}
+.ant-dropdown-link{
+    color: gray;
+    font-size: 14px;
+}
